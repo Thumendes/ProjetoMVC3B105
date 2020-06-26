@@ -9,7 +9,7 @@ namespace ProjetoMVC3B105.DAL
 {
     public class ConnectionDAL
     {
-        private string stringConnection = "Persist Security info=false; server=localhost; database=dbmvc; user=root; pwd=;";
+        private string stringConnection = "Persist Security info=false; server=localhost; database=ProjetoMVC3B105; user=root; pwd=;";
         private MySqlConnection connection;
 
         public void ConnectDB()

@@ -7,7 +7,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Sign In</title>
     <link href="../styles/signin.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@200;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@200;400;500&display=swap" rel="stylesheet" />
 </head>
 <body>
     <div class="container">

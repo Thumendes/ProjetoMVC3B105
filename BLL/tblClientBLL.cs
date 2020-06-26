@@ -13,7 +13,7 @@ namespace ProjetoMVC3B105.BLL
 
         public Boolean Auth(string email, string senha)
         {
-            string consult = string.Format($@"select * from tblCliente where email = '{email}' and senha = '{senha}'");
+            string consult = string.Format($@"select * from tbl_clienteB05 where email = '{email}' and senha = '{senha}'");
             DataTable dt = database.executeConsult(consult);
             if(dt.Rows.Count == 1)
             {
